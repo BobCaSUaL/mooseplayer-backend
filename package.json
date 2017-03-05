@@ -1,0 +1,8 @@
+{
+  "name": "mooseca-backend",
+  "version": "0.0.1",
+  "description": "A backend for mooseca player",
+  "main": "index.js",
+  "repository": "https://github.com/BobCaSUaL/mooseca-backend.git",
+  "license": "MIT"
+}
