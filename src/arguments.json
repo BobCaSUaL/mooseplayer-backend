@@ -1,0 +1,19 @@
+{
+    "arguments" : [
+        {
+            "full" : "file",
+            "short" : "f",
+            "value" : true,
+            "description" : "File for parse"
+        },
+        {
+            "full" : "interactive",
+            "short" : "i",
+            "description" : "Interactive mode"
+        }
+    ],
+    "defaults" : {
+        "help" : true,
+        "helpExtras" : "Documentation can be fount at: http://foo.eu/"
+    }
+}
