@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "__DEV__": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "indent": ["warn", 4],
+    "spaced-comment": 0,
+    "semi": ["error", "never"],
+    "no-sequences": 0,
+    "no-unused-vars": "warn",
+    "new-cap": [2, { "capIsNewExceptions": ["Map"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "plugins": ["react"]
+}
