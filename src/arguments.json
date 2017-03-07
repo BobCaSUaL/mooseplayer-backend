@@ -9,11 +9,12 @@
         {
             "full" : "interactive",
             "short" : "i",
+            "value": false,
             "description" : "Interactive mode"
         }
     ],
     "defaults" : {
         "help" : true,
-        "helpExtras" : "Documentation can be fount at: http://foo.eu/"
+        "helpExtras" : "Documentation can be fount at: http:\/\/foo.eu\/"
     }
 }

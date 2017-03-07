@@ -2953,10 +2953,6 @@ socket.io-parser@2.3.1:
     isarray "0.0.1"
     json3 "3.3.2"
 
-socket.io-router@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/socket.io-router/-/socket.io-router-0.3.0.tgz#e4b80e46bce61b919fb1d03528f47980b839b9a6"
-
 socket.io@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-1.7.3.tgz#b8af9caba00949e568e369f1327ea9be9ea2461b"
