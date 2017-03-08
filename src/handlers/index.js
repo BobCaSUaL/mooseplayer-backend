@@ -4,5 +4,6 @@ export default {
     pause: require('./pause').default,
     play: require('./play').default,
     scan: require('./scan').default,
+    list: require('./list').default,
     ready: (req: SocketRequest) => req.emit('done', { works: true })
 }
