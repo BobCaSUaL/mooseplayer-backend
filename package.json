@@ -7,11 +7,13 @@
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "id3-reader": "git+https://git@github.com/BobCaSUaL/node-id3-reader.git",
     "lodash": "^4.17.4",
     "node-argument-parser": "^0.1.0",
     "pouchdb": "^6.1.2",
     "pueblo": "^1.0.0",
-    "socket.io": "^1.7.3"
+    "socket.io": "^1.7.3",
+    "walk": "^2.3.9"
   },
   "devDependencies": {
     "babel": "^6.5.2",

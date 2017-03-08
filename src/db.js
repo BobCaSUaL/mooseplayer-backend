@@ -1,10 +1,13 @@
-import PouchDB from 'pouchdb'
+import fs from 'fs'
 import path from 'path'
+import PouchDB from 'pouchdb'
 
 
 // TODO get correct AppDir!
 const homePath = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE
-const libraryDb = new PouchDB(
-    path.join(homePath, '.mooseca-dev', 'library.ldb')
-)
-export default libraryDb
+const appPath = path.join(homePath, '.mooseplayer')
+
+if (!fs.existsSync(appPath)) {
+    fs.mkdirSync(appPath)
+}
+export default new PouchDB(path.resolve(appPath, 'library.ldb'))

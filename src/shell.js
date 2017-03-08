@@ -20,7 +20,9 @@ const emitEvent = async (answer) => {
                     process.stdout.write(`('${eventName}', ${JSON.stringify(data)})\n`),
                     res([eventName, data])
                 ),
-                data: JSON.parse(commandData.join(' '))
+                data: commandData.length > 0 ? (
+                    JSON.parse(commandData.join(' '))
+                ) : undefined
             })
         ))
     } else
